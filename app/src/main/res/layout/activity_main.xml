@@ -1,0 +1,45 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/staffIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã nhân viên" />
+
+    <EditText
+        android:id="@+id/fullNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ tên nhân viên" />
+
+    <EditText
+        android:id="@+id/birthDateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày sinh" />
+
+    <EditText
+        android:id="@+id/salaryInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lương" />
+
+    <Button
+        android:id="@+id/addEmployeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm nhân viên mới" />
+
+    <TextView
+        android:id="@+id/employeeListTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Result!"
+        android:textSize="16sp" />
+</LinearLayout>
