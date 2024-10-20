@@ -1,0 +1,31 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên sinh viên" />
+
+        <EditText
+            android:id="@+id/editTextStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã sinh viên" />
+
+        <EditText
+            android:id="@+id/editTextStudentGpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Điểm GPA" />
+
+        <Button
+            android:id="@+id/buttonAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm Sinh Viên" />
+    </LinearLayout>
